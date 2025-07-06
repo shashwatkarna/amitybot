@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AmityBot - Virtual Campus Assistant</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #eee;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 60px;
+      font-size: 3rem;
+      color: #ffffff;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      color: #cccccc;
+    }
+
+    .arrow {
+      font-size: 2.5rem;
+      animation: pulse 1.5s infinite;
+      margin-top: 40px;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.3; transform: translateY(0); }
+      50% { opacity: 1; transform: translateY(6px); }
+      100% { opacity: 0.3; transform: translateY(0); }
+    }
+
+    .chatbot-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #6366f1;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      z-index: 999;
+    }
+
+    .chat-container {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 360px;
+      max-height: 600px;
+      background: #1f1f1f;
+      border-radius: 16px;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      z-index: 998;
+    }
+
+    .chat-header {
+      background: #6366f1;
+      color: white;
+      padding: 16px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chat-body {
+      flex: 1;
+      padding: 16px;
+      overflow-y: auto;
+    }
+
+    .message {
+      display: flex;
+      margin-bottom: 12px;
+      gap: 10px;
+    }
+
+    .message.bot .bubble {
+      background: #2d2d2d;
+      border-radius: 12px 12px 12px 4px;
+      padding: 10px 14px;
+      max-width: 80%;
+      color: white;
+    }
+
+    .message.user {
+      justify-content: flex-end;
+    }
+
+    .message.user .bubble {
+      background: #4f46e5;
+      border-radius: 12px 12px 4px 12px;
+      padding: 10px 14px;
+      max-width: 80%;
+      color: white;
+    }
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #ccc;
+    }
+
+    .timestamp {
+      font-size: 10px;
+      color: #aaa;
+      margin-top: 2px;
+    }
+
+    .chat-footer {
+      display: flex;
+      border-top: 1px solid #333;
+      padding: 10px;
+      background: #1f1f1f;
+    }
+
+    .chat-footer input {
+      flex: 1;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 8px;
+      margin-right: 8px;
+    }
+
+    .chat-footer button {
+      background: #6366f1;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+    }
+
+    .suggestions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0;
+    }
+
+    .suggestions button {
+      background: #2d2d2d;
+      color: #eee;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .loading {
+      font-size: 12px;
+      color: #aaa;
+      margin: 10px 0;
+    }
+
+    .map-view {
+      margin-top: 12px;
+      height: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Page Branding -->
+<h1>AmityBot</h1>
+<p class="description">Your virtual assistant for Amity University Noida. Ask anything!</p>
+<div class="arrow">⬇️</div>
+<p>Click bottom left 🤖 to access AmityBot</p>
+
+<!-- Floating Chatbot Button -->
+<button class="chatbot-toggle" onclick="toggleChat()">💬</button>
+
+<!-- Chatbot Widget -->
+<div class="chat-container" id="chatContainer">
+  <div class="chat-header">
+    AmityBot
+    <span style="cursor:pointer;" onclick="toggleChat()">✖</span>
+  </div>
+
+  <div class="chat-body" id="chatBody">
+    <div class="message bot">
+      <div class="avatar">🤖</div>
+      <div>
+        <div class="bubble">
+          Hi, welcome to AmityBot 👋<br>
+          I can help you with:<br>
+          • 🧭 Navigation across blocks<br>
+          • 👨‍🏫 Faculty & HOD info<br>
+          • 🏛 Department insights<br>
+          • 🏨 Facilities & Hostels<br>
+          • 🌐 International vision & more!
+        </div>
+        <div class="timestamp" id="welcomeTime"></div>
+      </div>
+    </div>
+
+    <div class="suggestions">
+      <button onclick="sendMessage('Hi')">Hi</button>
+      <button onclick="sendMessage('Tell me about CSE department')">Tell me about CSE department</button>
+      <button onclick="sendMessage('How to reach H Block')">How to reach K Block</button>
+      <button onclick="sendMessage('Where is the Library?')">Where is the Library?</button>
+      <button onclick="sendMessage('Who is the HOD of Law?')">Who is the HOD of Law?</button>
+    </div>
+  </div>
+
+  <div class="chat-footer">
+    <input type="text" id="chatInput" placeholder="Type your message...">
+    <button onclick="handleUserMessage()">Send</button>
+  </div>
+</div>
+
+<script>
+  let chatOpen = false;
+  let timeoutId;
+  let messageCount = 0;
+
+  function toggleChat() {
+    const chat = document.getElementById('chatContainer');
+    chatOpen = !chatOpen;
+    chat.style.display = chatOpen ? 'flex' : 'none';
+
+    if (chatOpen) {
+      document.getElementById('welcomeTime').innerText = new Date().toLocaleTimeString();
+      resetInactivityTimer();
+    } else {
+      clearTimeout(timeoutId);
+    }
+  }
+
+  function handleUserMessage() {
+    const input = document.getElementById('chatInput');
+    const msg = input.value.trim();
+    if (!msg) return;
+    sendMessage(msg);
+    input.value = '';
+  }
+
+  document.getElementById('chatInput').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      handleUserMessage();
+    }
+  });
+
+  function sendMessage(msg) {
+    const chatBody = document.getElementById('chatBody');
+    resetInactivityTimer();
+
+    chatBody.innerHTML += `
+      <div class="message user">
+        <div>
+          <div class="bubble">${msg}</div>
+          <div class="timestamp">${new Date().toLocaleTimeString()}</div>
+        </div>
+      </div>
+      <div class="loading" id="loading">Typing...</div>
+    `;
+
+    scrollToBottom();
+
+    fetch("/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: msg })
+    })
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('loading').remove();
+
+      let reply = data.response || "Sorry, no response.";
+      const isMap = reply.toLowerCase().includes("map") || data.intent === "Get_Directions_To_Location";
+
+      chatBody.innerHTML += `
+        <div class="message bot">
+          <div class="avatar">🤖</div>
+          <div>
+            <div class="bubble">${reply}</div>
+            <div class="timestamp">${new Date().toLocaleTimeString()}</div>
+            ${isMap ? `<div class="map-view"><iframe src="/map"></iframe></div>` : ""}
+          </div>
+        </div>
+      `;
+      scrollToBottom();
+
+      messageCount++;
+      if (messageCount % 3 === 0) {
+        showFeedbackPrompt();
+      }
+    })
+    .catch(() => {
+      document.getElementById('loading').remove();
+      chatBody.innerHTML += `
+        <div class="message bot">
+          <div class="avatar">🤖</div>
+          <div>
+            <div class="bubble">Oops, I’m having trouble right now. Please try again later.</div>
+            <div class="timestamp">${new Date().toLocaleTimeString()}</div>
+          </div>
+        </div>
+      `;
+      scrollToBottom();
+    });
+  }
+
+  function scrollToBottom() {
+    const chatBody = document.getElementById('chatBody');
+    chatBody.scrollTop = chatBody.scrollHeight;
+  }
+
+  function resetInactivityTimer() {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      const chatBody = document.getElementById('chatBody');
+      chatBody.innerHTML += `
+        <div class="message bot">
+          <div class="avatar">🤖</div>
+          <div>
+            <div class="bubble">Looks like you've been inactive for a while. You can ask me anything 😊</div>
+            <div class="timestamp">${new Date().toLocaleTimeString()}</div>
+            <div class="bubble">You can also check our <a href="https://www.instagram.com/amityuniversity" target="_blank" style="color: #aaf;">Instagram</a>, <a href="https://www.linkedin.com/school/amity-university/" target="_blank" style="color: #aaf;">LinkedIn</a>, or <a href="https://www.amity.edu" target="_blank" style="color: #aaf;">website</a>.</div>
+          </div>
+        </div>
+      `;
+      scrollToBottom();
+    }, 120000); // 2 minutes
+  }
+
+  function showFeedbackPrompt() {
+    const chatBody = document.getElementById('chatBody');
+    chatBody.innerHTML += `
+      <div class="message bot">
+        <div class="avatar">🤖</div>
+        <div>
+          <div class="bubble">Was this helpful? 👍 or 👎</div>
+          <div class="timestamp">${new Date().toLocaleTimeString()}</div>
+        </div>
+      </div>
+    `;
+    scrollToBottom();
+  }
+</script>
+
+
+</body>
+</html>

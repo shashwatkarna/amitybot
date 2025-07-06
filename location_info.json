@@ -1,0 +1,93 @@
+{
+  "library": {
+    "description": "The Library is centrally located behind F Block. It offers quiet study areas, computer access, printing services, and an extensive academic collection.",
+    "near": ["F Block", "Main Cafeteria"],
+    "open_hours": "Mon–Sat, 9 AM to 8 PM",
+    "department": "Amity University"
+  },
+  "f block": {
+    "description": "F Block primarily houses the Amity Law School, focusing on various law courses.",
+    "near": ["Library", "Cafeteria"],
+    "department": ["Law"]
+  },
+  "b block": {
+    "description": "B Block houses the Amity School of Economics (ASE), offering various economics programs.",
+    "near": ["Library", "Cafeteria"],
+    "department": ["Amity School of Economics"]
+  },
+  "student parking": {
+    "description": "Student Parking is located near Gate 4 and Amphitheatre. It serves as the main parking zone for students.",
+    "near": ["Gate 4", "Amphitheatre"],
+    "department": "Amity University"
+  },
+  "a block": {
+    "description": "A Block houses the Amity Institute of Information Technology (AIIT) and related IT departments, equipped with smart classrooms and labs.",
+    "near": ["Main Gate", "Admission Office"],
+    "department": ["Amity Institute of Information Technology (AIIT)"]
+  },
+  "cafeteria": {
+    "description": "The Cafeteria serves multiple cuisines including Subway, Dominos, and night canteen options. A student hub for meals and socializing.",
+    "near": ["F Block", "Library", "Main Gate"],
+    "department": "Amity University"
+  },
+  "i block": {
+    "description": "I Block also hosts the Amity Institute of Information Technology (AIIT), along with Mechanical Engineering and Civil Engineering departments.",
+    "near": ["C Block", "Student Parking"],
+    "department": ["Amity Institute of Information Technology (AIIT)", "Mechanical Engineering", "Civil Engineering"]
+  },
+  "c block": {
+    "description": "C Block houses the Amity Institute of Psychology and Allied Sciences (AIPS), focusing on psychology and related disciplines.",
+    "near": ["I Block", "Cafeteria"],
+    "department": ["Amity Institute of Psychology and Allied Sciences (AIPS)"]
+  },
+  "d block": {
+    "description": "D Block houses the Faculty of Business and Law (FBL), which might include various business and language courses.",
+    "near": ["E Block", "Cafeteria"],
+    "department": ["FBL"]
+  },
+  "e block": {
+    "description": "E Block houses the Amity School of Engineering and Technology (ASET), offering various engineering disciplines. Megabite is also located in E Block.",
+    "near": ["D Block", "Megabite"],
+    "department": ["Amity School of Engineering and Technology (ASET)"]
+  },
+  "k block": {
+    "description": "K Block is associated with Fashion Designing courses, likely housing the Amity School of Fashion Technology.",
+    "near": ["H Block", "Sports Complex"],
+    "department": ["Fashion Designing", "Amity School of Fashion Technology"]
+  },
+  "h block": {
+    "description": "H Block is a famous and central block on campus, featuring many food courts and hostels, serving as a major student hub.",
+    "near": ["K Block", "Amphitheatre", "Hostels", "Food Courts"],
+    "department": "Amity University"
+  },
+  "megabite": {
+    "description": "Megabite is a popular food court on campus offering a variety of quick meal options and snacks. It is specifically located in E Block.",
+    "near": ["E Block", "Cafeteria"],
+    "department": "Amity University"
+  },
+  "admission office": {
+    "description": "The Admission Office handles all inquiries and processes for student admissions. It is located in J2 Block.",
+    "near": ["A Block", "Main Gate", "J2 Block"],
+    "department": "Amity University"
+  },
+  "gate 4": {
+    "description": "Gate 4 serves as an entry and exit point, primarily convenient for those accessing Student Parking and the Amphitheatre.",
+    "near": ["Student Parking", "Amphitheatre"],
+    "department": "Amity University"
+  },
+  "gate 2": {
+    "description": "Gate 2 serves as an entry and exit point for campus access.",
+    "near": ["Main Gate", "Security Office"],
+    "department": "Amity University"
+  },
+  "gate 3": {
+    "description": "Gate 3 serves as an entry and exit point for campus access.",
+    "near": ["Sports Complex", "Residential Area"],
+    "department": "Amity University"
+  },
+  "gate 1": {
+    "description": "Gate 1 is the Main Gate, serving as the primary entry and exit point for the university campus.",
+    "near": ["Admission Office", "Cafeteria"],
+    "department": "Amity University"
+  }
+}

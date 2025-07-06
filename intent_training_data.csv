@@ -1,0 +1,169 @@
+intent,training_phrase
+Admissions_Courses_Offered,What can I study at Amity?
+Admissions_Courses_Offered,What programs are available?
+Admissions_Courses_Offered,List of courses in Amity.
+Admissions_Courses_Offered,What courses does Amity offer?
+Admissions_Documents_Required,Original documents for verification?
+Admissions_Documents_Required,What proofs do I need to submit?
+Admissions_Documents_Required,List of documents for Amity.
+Admissions_Documents_Required,Do I need to bring original documents for verification?
+Admissions_Documents_Required,What documents are needed for admission?
+Admissions_Eligibility_Criteria,Requirements for BA?
+Admissions_Eligibility_Criteria,What's the eligibility for MBA?
+Admissions_Eligibility_Criteria,Is there direct admission in Amity?
+Admissions_Eligibility_Criteria,Do I need to give an entrance exam?
+Admissions_Eligibility_Criteria,What are the eligibility criteria for B.Teh?
+Admissions_General_Process,What's the cutoff date for applications?
+Admissions_General_Process,When is the application deadline?
+Admissions_General_Process,What is the last date for admission?
+Admissions_General_Process,Is online application available?
+Admissions_General_Process,Can I apply online?
+Admissions_General_Process,Are admissions open?
+Admissions_General_Process,Is Amity taking admissions now?
+Admissions_General_Process,When do admissions start?
+Admissions_General_Process,What's the procedure for admission?
+Admissions_General_Process,How do I apply to Amity?
+Admissions_General_Process,Tell me about admissions.
+Admissions_General_Process,What is the admission process?
+Admissions_General_Process,What is the admission process for BBA?
+Admissions_General_Process,How can I take admission in Amity University?
+Admissions_Quota_Info,Management quota for admission?
+Admissions_Quota_Info,Do you have a quota system?
+Admissions_Quota_Info,Is there a management quota?
+Campus_Transportation,Parking facilities.
+Campus_Transportation,Bus transport for students.
+Campus_Transportation,Campus shuttle service.
+Campus_Transportation,Where can I park my vehicle?
+Campus_Transportation,Does Amity provide transportation?
+Campus_Transportation,Is there a shuttle inside the campus?
+Default Welcome Intent,just going to say hi
+Default Welcome Intent,heya
+Default Welcome Intent,hello hi
+Default Welcome Intent,howdy
+Default Welcome Intent,hey there
+Default Welcome Intent,hi there
+Default Welcome Intent,greetings
+Default Welcome Intent,hey
+Default Welcome Intent,long time no see
+Default Welcome Intent,hello
+Default Welcome Intent,lovely day isn't it
+Default Welcome Intent,I greet you
+Default Welcome Intent,hello again
+Default Welcome Intent,hi
+Default Welcome Intent,hello there
+Default Welcome Intent,a good day
+Fees_Payment,Late fee penalty.
+Fees_Payment,Accounts office location.
+Fees_Payment,Online fee payment?
+Fees_Payment,Fee payment options.
+Fees_Payment,What is the penalty for late fee payment?
+Fees_Payment,Where is the accounts office?
+Fees_Payment,Can I pay the fee online?
+Fees_Payment,How can I pay my fees?
+Financial_Aid_Waivers,Are there any fee concessions?
+Financial_Aid_Waivers,Fee installment options.
+Financial_Aid_Waivers,Can I pay the fee in installments?
+Financial_Aid_Waivers,Does Amity provide any fee waivers?
+Get_Admissions_Info,How much is the tuition?
+Get_Admissions_Info,What is the fee structure?
+Get_Admissions_Info,How much does BA cost?
+Get_Admissions_Info,Fee for MBA?
+Get_Admissions_Info,What is the fee structure for B.Tech?
+Get_Admissions_Info,How much are the fees?
+Get_Admissions_Info,Fees for B.Tech
+Get_Admissions_Info,Which Courses are available in Amity
+Get_Admissions_Info,What documents do I need for admission?
+Get_Admissions_Info,Tell me about the admission process
+Get_Admissions_Info,What are the admission requirements?
+Get_Admissions_Info,How do I apply to Amity?
+Get_Admissions_Info,Tell me about course-wise fee structure
+Get_Admissions_Info,What is total cost of PGDM?
+Get_Admissions_Info,What is hostel fee?
+Get_Admissions_Info,Tell me about scholarships
+Get_Admissions_Info,Fees for international students?
+Get_Course_Info,are there any fashion designing course
+Get_Course_Info,information on law courses
+Get_Course_Info,What kind of ug programs are available
+Get_Course_Info,Do you offer phd programs
+Get_Course_Info,What are the details for mba course
+Get_Course_Info,Tell me about the b.tech program
+Get_Department_Info,List all departments.
+Get_Department_Info,How many departments are there?
+Get_Department_Info,What is the contact email for the cse department
+Get_Department_Info,Who is the HOD of @[DepartmentName:computer science and engineering]?
+Get_Department_Info,What information do you have on the information technology department
+Get_Department_Info,where is the ece department
+Get_Department_Info,Tell me about the Computer Science department.
+Get_Directions_To_Location,Location of the Law department?
+Get_Directions_To_Location,Where is the medical room?
+Get_Directions_To_Location,How to find the auditorium?
+Get_Directions_To_Location,Directions to the Student Services Office?
+Get_Directions_To_Location,how do i get to the admission cell
+Get_Directions_To_Location,where is the main gate
+Get_Directions_To_Location,where is canteen
+Get_Directions_To_Location,How can I reach the auditorium.
+Get_Directions_To_Location,can you tell me how to reach the E2-auditorium?
+Get_Directions_To_Location,Lead me to Block A from the gate.
+Get_Directions_To_Location,What is the route to Block E?
+Get_Directions_To_Location,Give me directions to the Main Ground.
+Get_Directions_To_Location,Nearest Gate?
+Get_Directions_To_Location,How can I reach the E2-auditorium?
+Get_Directions_To_Location,How can I reach the auditorium?
+Get_Directions_To_Location,Maps to the Main Ground
+Get_Directions_To_Location,Where is Block H?
+Get_Directions_To_Location,How to reach Block E?
+Get_Directions_To_Location,Where is Block D?
+Get_Directions_To_Location,Where is Block B
+Get_Directions_To_Location,Where is Block A?
+Get_Directions_To_Location,Show me the way to the admissions office
+Get_Directions_To_Location,Directions to the cafeteria
+Get_Directions_To_Location,How do I get to the library?
+Get_Directions_To_Location,Where is the Cafeteria?
+Get_Directions_To_Location,How to reach from F Block to Library?
+Get_Directions_To_Location,How to reach from C Block to I Block?
+Get_Directions_To_Location,From H Block to E Block
+Get_Directions_To_Location,Show me path from A Block to Cafeteria
+Get_Directions_To_Location,How to reach from C Block to I Block?
+Get_Directions_To_Location,How do I go from H Block to Library?
+Get_Facility_Info,Tell me about parking.
+Get_Facility_Info,Are there any labs] on campus?
+Get_Facility_Info,What is the location of the medical center?
+Get_Facility_Info,Do you have a hostel?
+Get_Facility_Info,What is the library like?
+Get_Facility_Info,can i park my car
+Get_Facility_Info,what are the labs like
+Get_Facility_Info,is there a medical center
+Get_Facility_Info,What about transport facility
+Get_Facility_Info,Do you have a hostel
+Get_Facility_Info,Information on the sports complex
+Get_Facility_Info,Information on the main ground
+Get_Facility_Info,Where is the canteen located
+Get_Facility_Info,Tell me about the library
+Get_Facility_Info,Is there a mess in the hostel?	
+Get_Facility_Info,Do you have Wi-Fi in hostel?
+Get_Facility_Info,Are there separate hostels for boys and girls?
+Get_Facility_Info,Is gym facility there in campus?
+Get_Facility_Info,Can parents stay temporarily?
+Get_Facility_Info,Tell me about laundry service
+Get_Faculty_Info,vivek jangra
+Get_Faculty_Info,nitasha hasteer
+Get_Faculty_Info,anuranjana sharma
+Get_Faculty_Info,saru dhir
+Get_Faculty_Info,Contact details for vivek jangra
+Get_Faculty_Info,Which department is richa sharma is in
+Get_Faculty_Info,What is the email of anuranjana sharma
+Get_Faculty_Info,Tell me about dr saru dhir in it department
+Get_Faculty_Info,who is dr nitasha hasteer
+Scholarship_Info,Scholarship requirements.
+Scholarship_Info,How do I get a scholarship?
+Scholarship_Info,Scholarship details.
+Scholarship_Info,How to apply for a scholarship?
+Scholarship_Info,What are the eligibility criteria for scholarships?
+Scholarship_Info,Does Amity provide scholarships?
+Unknown_Intent,Tell me a joke
+Unknown_Intent,What's the weather today?
+Unknown_Intent,Do you know Elon Musk?
+Unknown_Intent,Sing a song
+Unknown_Intent,Say something funny
+Unknown_Intent,You sound boring
+Unknown_Intent,which is the best college?

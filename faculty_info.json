@@ -1,0 +1,901 @@
+[
+  {
+    "name": "Dr. Aakanshi Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-III",
+    "location": "A Block, Room 293",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7084"
+  },
+  {
+    "name": "Dr. Abhishek Singhal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "A Block, Room 241",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7018"
+  },
+  {
+    "name": "Dr. Ajay Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "E Block, Room 186",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7076"
+  },
+  {
+    "name": "Dr. Anant Kumar Jayswal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 157",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7124"
+  },
+  {
+    "name": "Dr. Anil Kumar Shukla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "G Block, Room 103",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7007"
+  },
+  {
+    "name": "Dr. Anjali Jain",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Dy. Head, Students’ Affairs, ASET / Associate Professor",
+    "location": "A Block, Room 297",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7048"
+  },
+  {
+    "name": "Mr. Ankit Kumar Das",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "JRF",
+    "location": "G Block, Room 216",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7021"
+  },
+  {
+    "name": "Dr. Anoop Kumar Shukla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "D Block, Room 480",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7037"
+  },
+  {
+    "name": "Dr. Anupama Mehra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "G Block, Room 433",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7119"
+  },
+  {
+    "name": "Dr. Anupama Bhan",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 467",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7039"
+  },
+  {
+    "name": "Dr. Anuranjana",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 354",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7063"
+  },
+  {
+    "name": "Mr. Ashish Kumar Kashyap",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "D Block, Room 237",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7108"
+  },
+  {
+    "name": "Dr. Ashwani Kumar Dubey",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "C Block, Room 435",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7113"
+  },
+  {
+    "name": "Dr. Balvinder Shukla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "VC & Professor - Entrepreneurship & Leadership",
+    "location": "C Block, Room 342",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7010"
+  },
+  {
+    "name": "Prof. (Dr.) Basant Singh Sikarwar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor & HoD - ME",
+    "location": "B Block, Room 272",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7121"
+  },
+  {
+    "name": "Dr. Betty Paulraj",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-III",
+    "location": "F Block, Room 479",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7054"
+  },
+  {
+    "name": "Dr. Bhupendra Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 466",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7085"
+  },
+  {
+    "name": "Dr. Bhupendra Prakash Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "E Block, Room 414",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7090"
+  },
+  {
+    "name": "Dr. D. Ganesh Gopal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "C Block, Room 379",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7060"
+  },
+  {
+    "name": "Dr. Divya Asija",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "B Block, Room 176",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7040"
+  },
+  {
+    "name": "Dr. Dolly Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "A Block, Room 194",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7083"
+  },
+  {
+    "name": "Dr. Garima Aggarwal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor / Head, International Collaboration for Engineering & Technology",
+    "location": "E Block, Room 495",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7028"
+  },
+  {
+    "name": "Dr. Gaurav Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "C Block, Room 107",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7045"
+  },
+  {
+    "name": "Dr. Geetika",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "G Block, Room 289",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7068"
+  },
+  {
+    "name": "Prof. (Dr.) Jaynendra Kumar Rai",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "HoD- ECE and E&T / Professor",
+    "location": "E Block, Room 381",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7074"
+  },
+  {
+    "name": "Mr. Jitendra Singh Jadon",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 469",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7034"
+  },
+  {
+    "name": "Dr. Juhi Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor III",
+    "location": "G Block, Room 260",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7105"
+  },
+  {
+    "name": "Prof. (Dr.) K. M. Soni",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Dy. Dean of domain Engg & Tech",
+    "location": "C Block, Room 252",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7056"
+  },
+  {
+    "name": "Mr. Kamlesh Pandey",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 250",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7117"
+  },
+  {
+    "name": "Dr. Khushbu Yadav",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "B Block, Room 408",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7110"
+  },
+  {
+    "name": "Dr. Krati Rastogi Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-I",
+    "location": "F Block, Room 123",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7009"
+  },
+  {
+    "name": "Ms. Kritica Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Teaching Associate",
+    "location": "C Block, Room 444",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7042"
+  },
+  {
+    "name": "Dr. Lala Bhaskar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade-III)",
+    "location": "F Block, Room 366",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7079"
+  },
+  {
+    "name": "Prof. (Dr.) Madhuri Kumari",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor / Dy. Director - Placement & Industry Relation",
+    "location": "C Block, Room 202",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7073"
+  },
+  {
+    "name": "Dr. Mahendra Kumar Verma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 499",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7006"
+  },
+  {
+    "name": "Dr. Manander Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 464",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7053"
+  },
+  {
+    "name": "Mr. Manish Kumar Ojha",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "A Block, Room 397",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7030"
+  },
+  {
+    "name": "Prof. (Dr.) Manoj Kumar Shukla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "B Block, Room 339",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7031"
+  },
+  {
+    "name": "Dr. Manoj Kumar Pandey",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Director",
+    "location": "C Block, Room 265",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7002"
+  },
+  {
+    "name": "Dr. Mayank Chhabra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "A Block, Room 248",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7057"
+  },
+  {
+    "name": "Dr. Meeta Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "G Block, Room 245",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7088"
+  },
+  {
+    "name": "Dr. Mehtab Fatima",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "C Block, Room 253",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7012"
+  },
+  {
+    "name": "Dr. Misha Kakkar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Head- Accreditation, Ranking & Quality Assurance, ASET / Associate Professor",
+    "location": "G Block, Room 440",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7081"
+  },
+  {
+    "name": "Dr. Monica Kaushik",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "D Block, Room 223",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7032"
+  },
+  {
+    "name": "Dr. Nancy Gulati",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (I)",
+    "location": "G Block, Room 124",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7077"
+  },
+  {
+    "name": "Mr. Naveen Anand Daniel",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "C Block, Room 460",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7096"
+  },
+  {
+    "name": "Ms. Neelam Verma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 336",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7014"
+  },
+  {
+    "name": "Dr. Neeraj Khera",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "C Block, Room 445",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7026"
+  },
+  {
+    "name": "Dr. Neha Tyagi",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "F Block, Room 106",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7022"
+  },
+  {
+    "name": "Dr. Nidhi Gaur",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "G Block, Room 175",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7115"
+  },
+  {
+    "name": "Dr. Nidhi Mishra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (III)",
+    "location": "F Block, Room 432",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7041"
+  },
+  {
+    "name": "Mr. Nilesh Brindavan Mishra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade-II)",
+    "location": "C Block, Room 222",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7003"
+  },
+  {
+    "name": "Mr. Nirbhay Kashyap",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "F Block, Room 350",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7069"
+  },
+  {
+    "name": "Prof. (Dr.) Nitasha Hasteer",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "HOD (IT)/ Dy. Director (Academics)/ Professor",
+    "location": "A Block, Room 429",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7109"
+  },
+  {
+    "name": "Dr. Nitish Kumar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "B Block, Room 221",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7016"
+  },
+  {
+    "name": "Dr. P. Chandra Shaker Reddy",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "F Block, Room 303",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7120"
+  },
+  {
+    "name": "Mr. Paurush Bhulania",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "C Block, Room 465",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7075"
+  },
+  {
+    "name": "Dr. Pintu Kumar Ram",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (I)",
+    "location": "D Block, Room 238",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7004"
+  },
+  {
+    "name": "Prof. (Dr.) Pradeep Kumar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Head, Students Affairs-ASET / Dy. HoD- ECE and E&T / Professor",
+    "location": "E Block, Room 108",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7051"
+  },
+  {
+    "name": "Mr. Prakhar Duggal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 338",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7033"
+  },
+  {
+    "name": "Dr. Prem Narayan Vishwakarma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "B Block, Room 476",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7122"
+  },
+  {
+    "name": "Dr. Priyanka Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "E Block, Room 463",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7111"
+  },
+  {
+    "name": "Dr. Pushpendra Kumar Singh Rathore",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "E Block, Room 484",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7017"
+  },
+  {
+    "name": "Prof. (Dr.) Pyare Mohan Tiwari",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor / Head (EEE)",
+    "location": "B Block, Room 344",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7000"
+  },
+  {
+    "name": "Prof. (Dr.) R. K. Tyagi",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Addl. HoD- ME Department / Professor",
+    "location": "G Block, Room 475",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7082"
+  },
+  {
+    "name": "Dr. Rahul Kumar Verma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "C Block, Room 111",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7118"
+  },
+  {
+    "name": "Mr. Rahul Joshi",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Project Associate-II",
+    "location": "D Block, Room 187",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7097"
+  },
+  {
+    "name": "Dr. Rajeev Kumar Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "F Block, Room 270",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7055"
+  },
+  {
+    "name": "Dr. Rajkumar Viral",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 411",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7047"
+  },
+  {
+    "name": "Dr. Rajni Sehgal Kaushik",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "B Block, Room 354",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7106"
+  },
+  {
+    "name": "Dr. Rakesh Kumar Phanden",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 218",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7008"
+  },
+  {
+    "name": "Dr. Ram Paul",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-II",
+    "location": "F Block, Room 305",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7013"
+  },
+  {
+    "name": "Dr. Rani",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (III)",
+    "location": "C Block, Room 307",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7125"
+  },
+  {
+    "name": "Dr. Rashmi",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-III",
+    "location": "E Block, Room 371",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7070"
+  },
+  {
+    "name": "Dr. Ravinder Kumar Tomar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "HoD (Civil Engineering) /Professor",
+    "location": "E Block, Room 336",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7050"
+  },
+  {
+    "name": "Dr. Ravinder Kumar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "E Block, Room 382",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7020"
+  },
+  {
+    "name": "Dr. Renuka Arora",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "B Block, Room 482",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7095"
+  },
+  {
+    "name": "Dr. Richa Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 437",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7025"
+  },
+  {
+    "name": "Dr. Richa Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 489",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7038"
+  },
+  {
+    "name": "Dr. Richa Sharma",
+    "first_name": "richa",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (II)",
+    "location": "E Block, Room 198",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7107"
+  },
+  {
+    "name": "Dr. Rinki Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "B Block, Room 158",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7062"
+  },
+  {
+    "name": "Dr. Rohit Singla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - I)",
+    "location": "D Block, Room 183",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7101"
+  },
+  {
+    "name": "Dr. Roshan Lal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "E Block, Room 378",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7099"
+  },
+  {
+    "name": "Dr. Ruchira",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 408",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7089"
+  },
+  {
+    "name": "Dr. Sanatan Ratna",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "C Block, Room 250",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7123"
+  },
+  {
+    "name": "Dr. Sanjay Kumar Dubey",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "G Block, Room 327",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7092"
+  },
+  {
+    "name": "Dr. Sanjay Kumar Sinha",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "F Block, Room 386",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7005"
+  },
+  {
+    "name": "Prof. (Dr.) Sanjeev Thakur",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor / Head, Computer Science & Engineering (CSE)",
+    "location": "B Block, Room 312",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7015"
+  },
+  {
+    "name": "Dr. Sanjeev Kumar Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 294",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7067"
+  },
+  {
+    "name": "Mr. Sanjiv Kumar Tomar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 144",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7001"
+  },
+  {
+    "name": "Dr. Sanmukh Kaur",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "G Block, Room 166",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7127"
+  },
+  {
+    "name": "Dr. Saru Dhir",
+    "first_name": "Saru",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "A Block, Room 202",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7093"
+  },
+  {
+    "name": "Dr. Seema Rawat",
+    "first_name": "Seema",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "F Block, Room 266",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7126"
+  },
+  {
+    "name": "Dr. Seema Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "B Block, Room 311",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7100"
+  },
+  {
+    "name": "Dr. Shailendra Kumar Jain",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "C Block, Room 152",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7052"
+  },
+  {
+    "name": "Dr. Shailendra Kumar Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-I",
+    "location": "B Block, Room 155",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7087"
+  },
+  {
+    "name": "Ms. Shikha Bathla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "A Block, Room 375",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7065"
+  },
+  {
+    "name": "Prof.(Dr.) Shilpi Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "G Block, Room 446",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7104"
+  },
+  {
+    "name": "Dr. Shipra Saraswat",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "B Block, Room 159",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7049"
+  },
+  {
+    "name": "Dr. Shubhra Dixit",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 402",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7078"
+  },
+  {
+    "name": "Dr. Shuchi Mala",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (II)",
+    "location": "C Block, Room 425",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7066"
+  },
+  {
+    "name": "Ms. Shweta Bhardwaj",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade-III)",
+    "location": "B Block, Room 123",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7044"
+  },
+  {
+    "name": "Prof. (Dr.) Sindhu Hak Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "A Block, Room 103",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7046"
+  },
+  {
+    "name": "Mr. Smile kataria",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Project Associate - I",
+    "location": "B Block, Room 129",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7102"
+  },
+  {
+    "name": "Dr. Smriti Sehgal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "F Block, Room 307",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7112"
+  },
+  {
+    "name": "Dr. Sobia Habib",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-I",
+    "location": "C Block, Room 351",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7091"
+  },
+  {
+    "name": "Dr. Sofia Singh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 121",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7094"
+  },
+  {
+    "name": "Dr. Subhash Chand Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Dy. HoD CSE / Associate Professor",
+    "location": "A Block, Room 235",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7098"
+  },
+  {
+    "name": "Dr. Sumit Sharma",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade-III)",
+    "location": "A Block, Room 447",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7029"
+  },
+  {
+    "name": "Dr. Sumit Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "C Block, Room 240",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7059"
+  },
+  {
+    "name": "Dr. Sumit Kumar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "C Block, Room 177",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7043"
+  },
+  {
+    "name": "Dr. Sumita Gupta",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor-III",
+    "location": "D Block, Room 132",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7035"
+  },
+  {
+    "name": "Dr. Sunil Kumar",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "D Block, Room 116",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7086"
+  },
+  {
+    "name": "Dr. Supriya Raheja",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "A Block, Room 482",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7023"
+  },
+  {
+    "name": "Dr. Surbhi Vijh",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-II",
+    "location": "B Block, Room 345",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7019"
+  },
+  {
+    "name": "Dr. Surendra Kumar Shukla",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "A Block, Room 244",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7114"
+  },
+  {
+    "name": "Dr. Sweta Srivastava",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "E Block, Room 454",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7103"
+  },
+  {
+    "name": "Dr. Ujjwal Bharadwaj",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "E Block, Room 247",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7024"
+  },
+  {
+    "name": "Dr. Umesh Kumar Vates",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Associate Professor",
+    "location": "F Block, Room 279",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7064"
+  },
+  {
+    "name": "Dr. Vangmayee Sharda",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "A Block, Room 138",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7036"
+  },
+  {
+    "name": "Dr. Vasudha Vashisht",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "F Block, Room 395",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7080"
+  },
+  {
+    "name": "Dr. Vibha Nehra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (II)",
+    "location": "E Block, Room 240",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7061"
+  },
+  {
+    "name": "Dr. Vijay Kumar Tayal",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Professor",
+    "location": "G Block, Room 164",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7058"
+  },
+  {
+    "name": "Dr. Vijay Chaudhary",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - II)",
+    "location": "F Block, Room 355",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7072"
+  },
+  {
+    "name": "Dr. Vikas Kamra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Assistant Professor-III",
+    "location": "A Block, Room 199",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7071"
+  },
+  {
+    "name": "Dr. Vipin Kaushik",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (Grade - III)",
+    "location": "D Block, Room 334",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7116"
+  },
+  {
+    "name": "Ms. Vishakha Baghel",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "JRF",
+    "location": "C Block, Room 129",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7027"
+  },
+  {
+    "name": "Dr. Vivek Jangra",
+    "department": "Amity School of Engineering and Technology",
+    "designation": "Asst. Professor (III)",
+    "location": "B Block, Room 289",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7011"
+  }
+]

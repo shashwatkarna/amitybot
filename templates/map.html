@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amity Campus Map</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 90vh; width: 100%; border: 2px solid #333; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Amity University Campus Map</h2>
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+  // Center map roughly on Amity University Noida
+  var map = L.map('map').setView([28.5441, 77.3337], 17);
+
+  // Use OpenStreetMap base
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Add block markers (sample)
+  L.marker([28.546675, 77.334339]).addTo(map).bindPopup("H Block").openPopup();
+  L.marker([28.547284, 77.334282]).addTo(map).bindPopup("Gate 4A");
+  L.marker([28.546748, 77.3343975]).addTo(map).bindPopup("Dosa Plaza");
+  L.marker([28.546467, 77.333966]).addTo(map).bindPopup("Hostel");
+  L.marker([28.546088, 77.335225]).addTo(map).bindPopup("K Block");
+  L.marker([28.545204, 77.335487]).addTo(map).bindPopup("K-2 Block");
+  L.marker([28.544855, 77.336105]).addTo(map).bindPopup("K-3 Block");
+  L.marker([28.545361, 77.334479]).addTo(map).bindPopup("E-1 Block");
+  L.marker([28.544837, 77.333744]).addTo(map).bindPopup("E-2 Block");
+  L.marker([28.544177, 77.333136]).addTo(map).bindPopup("E-3 Block")
+  L.marker([28.545259, 77.333486]).addTo(map).bindPopup("Central Park")
+  L.marker([28.546061, 77.333393]).addTo(map).bindPopup("A Block");
+  L.marker([28.545691, 77.333212]).addTo(map).bindPopup("B Block");
+  L.marker([28.545411, 77.333053]).addTo(map).bindPopup("C Block");
+  L.marker([28.545002, 77.332773]).addTo(map).bindPopup("D Block");
+  L.marker([28.543982, 77.334752]).addTo(map).bindPopup("Library")
+  L.marker([28.542593, 77.331224]).addTo(map).bindPopup("Main Ground");
+  L.marker([28.543997, 77.332945]).addTo(map).bindPopup("F Block");
+  L.marker([28.542850, 77.333316]).addTo(map).bindPopup("I Block");
+  L.marker([28.546111, 77.333108]).addTo(map).bindPopup("L Block");
+</script>
+
+</body>
+</html>
