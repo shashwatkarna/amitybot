@@ -4,9 +4,13 @@ import re
 import string
 import json
 import requests
+import enchant
 import os
 from dotenv import load_dotenv
 from flask_cors import CORS
+
+
+english_dict = enchant.Dict("en_US")
 
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -158,6 +162,36 @@ def find_location_info(query):
             return val
     return None
 
+
+# gibberish issue 
+def is_likely_gibberish(text):
+    text = text.strip().lower()
+
+    # 1. Very short
+    if len(text) < 4:
+        return True
+
+    # 2. Mostly digits or symbols
+    if re.fullmatch(r'[\d\W_]+', text):
+        return True
+
+    # 3. No vowels
+    if not re.search(r'[aeiou]', text):
+        return True
+
+    # 4. Long consonant clusters (4+ in a row)
+    if re.search(r'[bcdfghjklmnpqrstvwxyz]{4,}', text):
+        return True
+
+    # 5. Check how many real English words
+    words = re.findall(r'\b\w+\b', text)
+    english_words = [word for word in words if english_dict.check(word)]
+    if len(english_words) <= 1 and len(words) > 2:
+        return True
+
+    return False
+
+
 # ✅ Main chat endpoint
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -214,6 +248,16 @@ def chat():
         else:
             reply = "Sorry, I couldn't find that faculty information."
         return jsonify({"intent": predicted_intent, "response": reply})
+
+
+    # Detect gibberish early
+    if is_likely_gibberish(message_lower):
+        print("❌ Gibberish input detected.")
+        return jsonify({
+            "intent": "Unknown_Intent",
+            "response": "Hmm, that doesn't seem like a valid question. Could you please rephrase?"
+        })
+
 
     # 📍 Location lookup
     # # 📍 Location lookup start hai obj obj theek karne ki

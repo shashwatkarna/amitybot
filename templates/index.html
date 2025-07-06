@@ -59,7 +59,7 @@
       position: fixed;
       bottom: 90px;
       right: 20px;
-      width: 360px;
+      width: 380px;
       max-height: 600px;
       background: #1f1f1f;
       border-radius: 16px;
@@ -69,6 +69,8 @@
       box-shadow: 0 0 15px rgba(0,0,0,0.4);
       z-index: 998;
     }
+
+    /* baad me height ko 640 aur width ko 400 */
 
     .chat-header {
       background: #6366f1;
@@ -187,16 +189,12 @@
 </head>
 <body>
 
-<!-- Page Branding -->
 <h1>AmityBot</h1>
 <p class="description">Your virtual assistant for Amity University Noida. Ask anything!</p>
 <div class="arrow">⬇️</div>
-<p>Click bottom left 🤖 to access AmityBot</p>
 
-<!-- Floating Chatbot Button -->
 <button class="chatbot-toggle" onclick="toggleChat()">💬</button>
 
-<!-- Chatbot Widget -->
 <div class="chat-container" id="chatContainer">
   <div class="chat-header">
     AmityBot
@@ -223,14 +221,14 @@
     <div class="suggestions">
       <button onclick="sendMessage('Hi')">Hi</button>
       <button onclick="sendMessage('Tell me about CSE department')">Tell me about CSE department</button>
-      <button onclick="sendMessage('How to reach H Block')">How to reach K Block</button>
+      <button onclick="sendMessage('How to reach K Block')">How to reach K Block</button>
       <button onclick="sendMessage('Where is the Library?')">Where is the Library?</button>
       <button onclick="sendMessage('Who is the HOD of Law?')">Who is the HOD of Law?</button>
     </div>
   </div>
 
   <div class="chat-footer">
-    <input type="text" id="chatInput" placeholder="Type your message...">
+    <input type="text" id="chatInput" placeholder="Type your message..." onkeydown="if(event.key === 'Enter') handleUserMessage()">
     <button onclick="handleUserMessage()">Send</button>
   </div>
 </div>
@@ -238,17 +236,20 @@
 <script>
   let chatOpen = false;
   let timeoutId;
-  let messageCount = 0;
+  let responseCount = 0;
 
   function toggleChat() {
     const chat = document.getElementById('chatContainer');
     chatOpen = !chatOpen;
-    chat.style.display = chatOpen ? 'flex' : 'none';
 
     if (chatOpen) {
+      chat.style.display = "flex";
+      chat.classList.remove("hidden");
       document.getElementById('welcomeTime').innerText = new Date().toLocaleTimeString();
       resetInactivityTimer();
     } else {
+      chat.classList.add("hidden");
+      setTimeout(() => (chat.style.display = "none"), 300);
       clearTimeout(timeoutId);
     }
   }
@@ -260,12 +261,6 @@
     sendMessage(msg);
     input.value = '';
   }
-
-  document.getElementById('chatInput').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-      handleUserMessage();
-    }
-  });
 
   function sendMessage(msg) {
     const chatBody = document.getElementById('chatBody');
@@ -283,46 +278,47 @@
 
     scrollToBottom();
 
-    fetch("/chat", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
+    fetch('/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: msg })
     })
     .then(res => res.json())
     .then(data => {
       document.getElementById('loading').remove();
+      responseCount++;
 
-      let reply = data.response || "Sorry, no response.";
-      const isMap = reply.toLowerCase().includes("map") || data.intent === "Get_Directions_To_Location";
-
-      chatBody.innerHTML += `
-        <div class="message bot">
-          <div class="avatar">🤖</div>
-          <div>
-            <div class="bubble">${reply}</div>
-            <div class="timestamp">${new Date().toLocaleTimeString()}</div>
-            ${isMap ? `<div class="map-view"><iframe src="/map"></iframe></div>` : ""}
-          </div>
-        </div>
-      `;
-      scrollToBottom();
-
-      messageCount++;
-      if (messageCount % 3 === 0) {
-        showFeedbackPrompt();
+      let botReply = data.response;
+      if (botReply.toLowerCase().includes("sorry") || botReply.toLowerCase().includes("couldn't understand")) {
+        botReply += "<br><em>Hmm, I couldn't understand that. Could you rephrase?</em>";
       }
-    })
-    .catch(() => {
-      document.getElementById('loading').remove();
+
+      if (botReply.includes("/map")) {
+        botReply += `<div class="map-view"><iframe src="/map"></iframe></div>`;
+      }
+
       chatBody.innerHTML += `
         <div class="message bot">
           <div class="avatar">🤖</div>
           <div>
-            <div class="bubble">Oops, I’m having trouble right now. Please try again later.</div>
+            <div class="bubble">${botReply}</div>
             <div class="timestamp">${new Date().toLocaleTimeString()}</div>
           </div>
         </div>
       `;
+
+      if (responseCount % 3 === 0) {
+        chatBody.innerHTML += `
+          <div class="message bot">
+            <div class="avatar">🤖</div>
+            <div>
+              <div class="bubble">Was this helpful? 👍 or 👎</div>
+              <div class="timestamp">${new Date().toLocaleTimeString()}</div>
+            </div>
+          </div>
+        `;
+      }
+
       scrollToBottom();
     });
   }
@@ -342,29 +338,13 @@
           <div>
             <div class="bubble">Looks like you've been inactive for a while. You can ask me anything 😊</div>
             <div class="timestamp">${new Date().toLocaleTimeString()}</div>
-            <div class="bubble">You can also check our <a href="https://www.instagram.com/amityuniversity" target="_blank" style="color: #aaf;">Instagram</a>, <a href="https://www.linkedin.com/school/amity-university/" target="_blank" style="color: #aaf;">LinkedIn</a>, or <a href="https://www.amity.edu" target="_blank" style="color: #aaf;">website</a>.</div>
           </div>
         </div>
       `;
       scrollToBottom();
-    }, 120000); // 2 minutes
-  }
-
-  function showFeedbackPrompt() {
-    const chatBody = document.getElementById('chatBody');
-    chatBody.innerHTML += `
-      <div class="message bot">
-        <div class="avatar">🤖</div>
-        <div>
-          <div class="bubble">Was this helpful? 👍 or 👎</div>
-          <div class="timestamp">${new Date().toLocaleTimeString()}</div>
-        </div>
-      </div>
-    `;
-    scrollToBottom();
+    }, 120000); // 2 mins
   }
 </script>
-
 
 </body>
 </html>
