@@ -897,5 +897,61 @@
     "designation": "Asst. Professor (III)",
     "location": "B Block, Room 289",
     "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=7011"
+  },
+  {
+    "name": "Dr. Neha Sharma",
+    "first_name": "Neha",
+    "department": "Amity Business School (MBA)",
+    "designation": "HoD - MBA",
+    "location": "J Block, Room 101",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=758"
+  },
+  {
+    "name": "Prof. Ravi Mehra",
+    "first_name": "Ravi",
+    "department": "Amity School of Business (BBA)",
+    "designation": "HoD - BBA",
+    "location": "I Block, Room 112",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=786"
+  },
+  {
+    "name": "Dr. Swati Kapoor",
+    "first_name": "Swati",
+    "department": "Amity Institute of Information Technology (BCA)",
+    "designation": "HoD - BCA",
+    "location": "E Block, Room 302",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=685"
+  },
+  {
+    "name": "Prof. Manish Rathi",
+    "first_name": "Manish",
+    "department": "Amity Law School",
+    "designation": "HoD - Law",
+    "location": "H Block, Room 215",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=876"
+  },
+  {
+    "name": "Dr. Priya Nair",
+    "first_name": "Priya",
+    "department": "Amity School of Communication",
+    "designation": "HoD - Mass Communication",
+    "location": "K Block, Room 208",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=3645"
+  },
+  {
+    "name": "Prof. Alok Sinha",
+    "first_name": "Alok",
+    "department": "Amity Institute of Psychology and Allied Sciences",
+    "designation": "HoD - Psychology",
+    "location": "C Block, Room 105",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=585"
+  },
+  {
+    "name": "Dr. Rekha Joshi",
+    "first_name": "Rekha",
+    "department": "Amity Institute of Biotechnology",
+    "designation": "HoD - Biotechnology",
+    "location": "G Block, Room 201",
+    "profile_link": "https://auup.amity.edu/faculty-detail.aspx?facultyID=757"
   }
 ]
