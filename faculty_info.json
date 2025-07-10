@@ -1,6 +1,7 @@
 [
   {
     "name": "Dr. Aakanshi Gupta",
+    "first_name": "aakanshi",
     "department": "Amity School of Engineering and Technology",
     "designation": "Assistant Professor-III",
     "location": "A Block, Room 293",
@@ -8,6 +9,7 @@
   },
   {
     "name": "Dr. Abhishek Singhal",
+    "first_name": "abhishek",
     "department": "Amity School of Engineering and Technology",
     "designation": "Professor",
     "location": "A Block, Room 241",
@@ -15,6 +17,7 @@
   },
   {
     "name": "Dr. Ajay Sharma",
+    "first_name": "ajay",
     "department": "Amity School of Engineering and Technology",
     "designation": "Associate Professor",
     "location": "E Block, Room 186",
@@ -22,6 +25,7 @@
   },
   {
     "name": "Dr. Anant Kumar Jayswal",
+    "first_name": "anant",
     "department": "Amity School of Engineering and Technology",
     "designation": "Associate Professor",
     "location": "D Block, Room 157",

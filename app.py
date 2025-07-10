@@ -6,6 +6,7 @@ import json
 import requests
 import enchant
 import os
+from textblob import TextBlob
 from dotenv import load_dotenv
 from flask_cors import CORS
 
@@ -117,34 +118,37 @@ def extract_blocks(message):
             return src, dst
     return None, None
 
-#  Faculty lookup by HOD or name
+# Faculty loopupby hod or names or fname
 def find_faculty_info(message):
-    message = message.lower()
+    message = message.lower().strip()
 
-    # 1. HOD lookup by department
+    # HOD lookup by department
     if "hod" in message:
         for person in faculty_data:
             if "hod" in person.get("designation", "").lower():
-                department_words = person["department"].lower().split()
-                if any(word in message for word in department_words):
+                dept_tokens = person["department"].lower().split()
+                if any(word in message for word in dept_tokens):
                     return person
 
-    # 2. Full name match
+    # Exact full name match
     for person in faculty_data:
         if person["name"].lower() in message:
             return person
 
-    # 3. Scored match based on first name + tokens
+    # Enhanced partial/first name + token match
     best_match = None
     best_score = 0
+    message_tokens = set(re.findall(r'\w+', message))
+
     for person in faculty_data:
         score = 0
-        # first name exact match = +2
-        if person.get("first_name", "").lower() in message:
+        full_name_tokens = set(re.findall(r'\w+', person["name"].lower()))
+        first_name = person.get("first_name", "").lower()
+
+        if first_name and first_name in message_tokens:
             score += 2
-        # partial match with name tokens = +1 each
-        name_tokens = re.findall(r'\w+', person["name"].lower())
-        score += sum(1 for token in name_tokens if token in message)
+
+        score += len(message_tokens & full_name_tokens)
 
         if score > best_score:
             best_score = score
@@ -201,7 +205,12 @@ def chat():
     user_message = data.get("message", "")
     print("📬 Message:", user_message)
 
-    message_lower = user_message.lower()
+    corrected_message = str(TextBlob(user_message)).lower()
+    print("📝 Corrected Message:", corrected_message)
+
+    message_lower = corrected_message
+
+    # message_lower = user_message.lower()
 
 
     #  Force Gemini fallback for broad/uncovered philosophical queries
@@ -230,15 +239,24 @@ def chat():
     print("📬 Message:", user_message)
     print("🎯 Predicted Intent:", predicted_intent)
 
-    #  Directions
+   # ✅ Directions
     if predicted_intent == "Get_Directions_To_Location":
-        src, dst = extract_blocks(user_message)
+        src, dst = extract_blocks(message_lower)  # use corrected message
         print("🧭 Extracted:", src, dst)
-        if src and dst and (src, dst) in directions_data:
-            steps = directions_data[(src, dst)]
-            return jsonify({"intent": predicted_intent, "response": "\n".join(steps)})
-        else:
-            return jsonify({"intent": predicted_intent, "response": "Sorry, I couldn't find directions between those blocks."})
+
+    # Handle single destination queries
+    if not src and dst:
+        print("🧭 Single destination detected — using default source H Block.")
+        src = "h"  # Default starting point
+    elif not dst and src:
+        print("🧭 Only destination provided, assuming H as destination and using src.")
+        dst = "h"
+
+    if src and dst and (src, dst) in directions_data:
+        steps = directions_data[(src, dst)]
+        return jsonify({"intent": predicted_intent, "response": "\n".join(steps) + "\n/map"})
+    else:
+        return jsonify({"intent": predicted_intent, "response": "Sorry, I couldn't find directions between those blocks."})
 
     #  Faculty info
     if predicted_intent in ["Get_HOD_Info", "Get_Faculty_Info"]:
